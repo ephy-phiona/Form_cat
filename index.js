@@ -8,7 +8,7 @@ function myFunction() {
     console.log("This message is shown after 3 seconds");
 }
  
-setTimeout(call, 1000);
+setTimeout(call(myFunction), 1000);
 
 
 var hopperLab = {
